@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// you can use reflect to get the type of the variable
 func main() {
 	var i interface{}
 	describe(i)
